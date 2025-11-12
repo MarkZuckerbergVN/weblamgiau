@@ -10,23 +10,51 @@
         h2 { color: #2ecc71; margin-top: 30px; border-bottom: 2px solid #eee; padding-bottom: 5px; }
         strong { font-weight: bold; }
         ul { list-style: disc; margin-left: 20px; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .menu-nav { 
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row; 
+            gap: 20px; 
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 30px; 
+        }
+        .menu-nav a { 
+            font-weight: bold; 
+            text-decoration: none; 
+            color: #e74c3c; 
+        }
+        .menu-nav a:hover {
+            text-decoration: underline;
+        }
+        .footer { margin-top: 50px; padding-top: 10px; border-top: 1px solid #ccc; font-size: 0.9em; color: #777; }
     </style>
 </head>
 <body>
     <h1>Kỹ Năng Và Dịch Vụ Mà Tôi Có Thể Cung Cấp</h1>
+    <div class="menu-nav">
+        <a href="trangchu.html">Trang Chủ</a>
+        <a href="thongtin.html">Thông Tin</a>
+        <a href="dichvu.html">Dịch Vụ</a>
+    </div>
     <ol>
         <li>
             <h2>Photoshop Chỉnh Sửa Ảnh Cơ Bản</h2>
             <ul>
-                <li>Nếu bức ảnh của bạn không ưng ý như bị nhòe mờ... bạn có thể nhờ chúng tôi chỉnh sửa để có 1 bức ảnh đẹp hơn</li>
+                <li>Nếu bức ảnh của bạn không ưng ý như bị nhòe mờ... bạn có thể nhờ chúng tôi chỉnh sửa để có 1 bức ảnh đẹp hơn.</li>
             </ul>
         </li>
         <li>
             <h2>Dịch Vụ </h2>
             <ul>
-                <li>Thiết Kế Trang Web Và Phần Mềm Cơ Bản</li>
+                <li>Thiết Kế Trang Web và Phần Mềm Cơ Bản .</li>
             </ul>
         </li>
     </ol>
+    <div class="footer">
+        <p>Để yêu cầu dịch vụ, vui lòng liên hệ qua trang <a href="thongtin.html">Thông Tin</a>. &copy; 2025</p>
+    </div>
 </body>
 </html>
