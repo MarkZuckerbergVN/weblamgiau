@@ -3,19 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thông Tin </title>
+    <title>Thông Tin Cá Nhân</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background-color: #fff; color: #333; }
         h1 { color: #3498db; }
         h2 { color: #2ecc71; margin-top: 30px; border-bottom: 2px solid #eee; padding-bottom: 5px; }
         strong { font-weight: bold; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { list-style-type: none; padding-left: 0; }
+        li { margin-bottom: 10px; }
+        .menu-nav { 
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row; 
+            gap: 20px; 
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 30px; 
+        }
+        .menu-nav a { 
+            font-weight: bold; 
+            text-decoration: none; 
+            color: #e74c3c; 
+        }
+        .menu-nav a:hover {
+            text-decoration: underline;
+        }
+        .footer { margin-top: 50px; padding-top: 10px; border-top: 1px solid #ccc; font-size: 0.9em; color: #777; }
     </style>
 </head>
 <body>
-    <h1>Thông Tin Cá Nhân </h1>
+    <h1>Thông Tin Cá Nhân</h1>
+    <div class="menu-nav">
+        <a href="trangchu.html">Trang Chủ</a>
+        <a href="thongtin.html">Thông Tin</a>
+        <a href="dichvu.html">Dịch Vụ</a>
+    </div>
     <h2>Tên: Tô Hoàng Anh Tú</h2>
+    <p>Tôi hiện đang là học sinh của Trường Trung Cấp Kinh Tế và học ngành Công Nghệ Thông Tin. Nghề nghiệp mong muốn ở tương lai của tôi là trở thành IT thiết kế website và phần mềm.</p>
     <h2>Liên Hệ</h2>
     <ul>
         <li><strong>Email:</strong> <a href="mailto:tohoanganhtu@gmail.com">tohoanganhtu@gmail.com</a></li>
+    </ul>
+    <div class="footer">
+        <p>Tô Hoàng Anh Tú. &copy; 2025</p>
+    </div>
 </body>
 </html>
