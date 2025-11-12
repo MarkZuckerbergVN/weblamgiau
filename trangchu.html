@@ -3,37 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Chủ </title>
+    <title>Trang Chủ</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background-color: #fff; color: #333; }
         h1 { color: #3498db; }
         h2 { color: #2ecc71; margin-top: 30px; border-bottom: 2px solid #eee; padding-bottom: 5px; }
         a { color: #3498db; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        .menu-nav { margin-top: 20px; }
-        .menu-nav a { display: block; margin-bottom: 5px; font-weight: bold; }
+        .menu-nav { 
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row; 
+            gap: 20px; 
+            padding: 10px 0; 
+            border-bottom: 1px solid #ccc; 
+            margin-bottom: 30px; 
+        }
+        .menu-nav a { 
+            margin-bottom: 0; 
+            font-weight: bold; 
+            text-decoration: none; 
+            color: #e74c3c; 
+        }
+        .menu-nav a:hover {
+            text-decoration: underline;
+        }
         .footer { margin-top: 50px; padding-top: 10px; border-top: 1px solid #ccc; font-size: 0.9em; color: #777; }
     </style>
 </head>
 <body>
-
-    <h1>Chào mừng đến với Trang Chủ của Tú!</h1>
-    
-    <p>Xin chào! Tôi là Tô Hoàng Anh Tú, đây là trang web mà tôi dùng để cung cấp thông tin và dịch vụ của tôi.</p>
-
-    <h2>Giới Thiệu Về Tôi</h2>
-    <p>Tôi hiện đang học tập tại trường Trung Cấp Kinh Tế và học ngành Công Nghệ Thông Tin. Ước mơ là làm It.</p>
-    
-    <h2>Menu </h2>
+    <h1>Trang Chủ</h1>
     <div class="menu-nav">
         <a href="trangchu.html">Trang Chủ</a>
-        <a href="thongtin.html">Thông Tin </a>
+        <a href="thongtin.html">Thông Tin</a>
         <a href="dichvu.html">Dịch Vụ</a>
     </div>
-
+    <p>Xin chào! Tôi là Tô Hoàng Anh Tú, đây là trang web mà tôi dùng để cung cấp thông tin và dịch vụ của tôi.</p>
+    <h2>Giới Thiệu Về Tôi</h2>
+    <p>Tôi hiện đang học tập tại trường Trung Cấp Kinh Tế và học ngành Công Nghệ Thông Tin. Ước mơ là làm It.</p>
     <div class="footer">
         <p>Tô Hoàng Anh Tú.</p>
     </div>
-
 </body>
 </html>
